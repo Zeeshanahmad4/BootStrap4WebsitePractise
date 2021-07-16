@@ -29,11 +29,11 @@ h1 {
 .messageDiv {
     background-color: white;
     border: 1px solid black;
-    border-radius: 6px;
+    border-radius: 0px 6px 6px 0px;
 }
 
-.danImage {
-    border-radius: 6px;
+.danImage { 
+    border-radius: 6px 0px 0px 6px; 
 }
 
 .h2 , h2 {
@@ -48,6 +48,10 @@ a.fw-bold {
 a.fw-bold:hover {
     text-decoration: underline;
     color: #007bff;
+}
+
+.navbar-toggler-icon {
+   fill: white !important;
 }
 
 .jumbotron h1 {
