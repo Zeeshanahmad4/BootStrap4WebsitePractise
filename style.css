@@ -1,0 +1,50 @@
+body {
+    background-image: linear-gradient(to bottom right,#00F490,#00BBC9) ;
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 300;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.jumbotron h1,.jumbotron p {
+    color: white;
+}
+
+.btn-outline-primary {
+    color: white;
+    border-color: white;
+}
+
+.btn-outline-primary:hover {
+    background-color: rgba(255, 255, 255, 0.185);
+    border-color: white;
+}
+
+.messageDiv {
+    background-color: white;
+    border: 1px solid black;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.jumbotron h1 {
+    font-size: 4.375rem;
+}
+
+.lead {
+    font-size: 2.2rem;
+}
+.myCards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* .navbar {
+    position: fixed;
+}
